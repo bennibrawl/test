@@ -382,7 +382,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://github.com/bennibrawl/test/tree/main"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/bennibrawl/test/main/README.md"))()
 
 -- // Hook
 mt.__namecall = newcclosure(function(...)
@@ -414,7 +414,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://github.com/bennibrawl/test/tree/main"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/bennibrawl/test/main/README.md"))()
 
 -- // Hook
 mt.__index = newcclosure(function(t, k)
